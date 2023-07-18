@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: "r6ay7t",
+  projectId: "nfpzwi",
   viewportHeight: 1200,
   viewportWidth: 1500,
   reporter:'cypress-mochawesome-reporter',
@@ -19,7 +19,9 @@ module.exports = defineConfig({
       saucedemo: "https://www.saucedemo.com"
     
     },
-    specPattern:'cypress/e2e/**/*.{js, jsx, ts, tsx}'
+    specPattern:'cypress/e2e/**/*.{js, jsx, ts, tsx}',
+    experimentalRunAllSpecs:true,
+    experimentalStudio:true
   }
   
 });
