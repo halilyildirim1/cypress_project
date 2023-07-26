@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: "nfpzwi",
+  projectId: "3bavq7",
   viewportHeight: 1200,
   viewportWidth: 1500,
   reporter:'cypress-mochawesome-reporter',
